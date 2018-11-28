@@ -1,4 +1,5 @@
 <?php
+require('auth.php');
 $title = "Movies Reviews";
 require('header.php');
 ?>

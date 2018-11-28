@@ -1,4 +1,5 @@
 <?php
+require('auth.php');
 $title = "Reviews";
 require('header.php');
 ?>
@@ -9,6 +10,7 @@ require('header.php');
 <?php
 // connect
 require('db.php');
+
 //$db = new PDO('mysql:host=aws.computerstudi.es;dbname=gcxxxxxxxxx', 'gcxxxxxxxxx', 'awspass');
 
 

@@ -53,7 +53,6 @@ if (empty($_GET['movie_id']) == false) {
 		echo "Problem occured while getting the data<br>";
 	}
 
-
 }
 
 ?>
