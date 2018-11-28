@@ -24,7 +24,7 @@ try{
 
 	// start the html display table
 	echo '<a href="movie.php" title="Add a New Movie">Add a New Movie</a>
-	<table class="table table-striped table-hover"><thead><th>Movie Name</th><th>Genre</th><th>Release Date</th><th>Rating</th><th>Image</th>
+	<table class="table table-striped table-hover sortable"><thead><th>Movie Name</th><th>Genre</th><th>Release Date</th><th>Rating</th><th>Image</th>
 	<th>Edit</th><th>Delete</th></thead><tbody>';
 
 	// loop through the results and show each movie in a new row and each value in a new column
