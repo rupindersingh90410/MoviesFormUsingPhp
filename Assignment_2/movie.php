@@ -82,7 +82,7 @@ if (empty($_GET['movie_id']) == false) {
 						<input type="file" name="photo" required "/>
 					</fieldset>
 	        <input name="movie_id" type="hidden" value="<?php echo $movie_id; ?>" />
-	        <button type="submit" class="col-sm-2 btn btn-success">Submit</button>
+	        <button type="submit" class="col-sm-offset-4 btn btn-success">Submit</button>
 	    </form>
 	</div>
 
